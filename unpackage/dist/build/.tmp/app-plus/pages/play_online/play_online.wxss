@@ -1,0 +1,302 @@
+
+view {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+}
+.userinfo {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+}
+
+	/** 棋盘 */
+.chess-board {
+		margin: 20rpx auto;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		/* 	width: 100%;
+        padding:40upx 40upx; */
+}
+
+	/** 棋盘的每一行 */
+.chess-board .row {
+
+		display: -webkit-box;
+
+		display: -webkit-flex;
+
+		display: -ms-flexbox;
+
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		height: 100%;
+}
+
+	/** 棋盘的每一个格 */
+.chess-board .cell {
+		border-bottom: 1px solid #000000;
+		border-right: 1px solid #000000;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+}
+
+	/** 每一行的第一个格子 */
+.chess-board .row .cell:first-child {
+		border-left: 1px solid #000000;
+}
+
+	/** 第一行的每一个格子 */
+.chess-board .row:first-child .cell {
+		border-top: 1px solid #000000;
+}
+.chess-board .row .cell:last-child {
+		border: 0px solid #000000;
+		background-color: #f3f3f3;
+}
+
+	/** 第一行的每一个格子 */
+.chess-board .row:last-child .cell {
+		border: 0px solid #000000;
+		background-color: #f3f3f3;
+}
+
+	/** 下子的提示区域 */
+.step-tip {
+		border: 1px solid #ff0000;
+		position: absolute;
+}
+
+	/** 棋盘的状态栏 */
+.chess-board-status-bar {
+		margin-top: 15px;
+		margin-left: 10px;
+		margin-right: 10px;
+		height: 90px;
+		border: 1px dashed #000000;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-flow: row nowrap;
+		    -ms-flex-flow: row nowrap;
+		        flex-flow: row nowrap;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+}
+
+	/** 当前下的棋子类型 */
+.now-stone-bar {
+		height: 200rpx;
+		width: 90px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+}
+
+	/** 当前子的类型 */
+.now-stone {
+		width: 50rpx;
+		height: 50rpx;
+		border: 1px solid #000000;
+		border-radius: 25rpx;
+}
+.logo-img {
+		width: 50px;
+		height: 50px;
+		border-radius: 50px;
+}
+.now-stone2 {
+		width: 40rpx;
+		height: 40rpx;
+		border: 1px solid #000000;
+		border-radius: 25rpx;
+}
+.logo-img2 {
+		width: 40px;
+		height: 40px;
+		border-radius: 40px;
+}
+
+	/** 控制按钮栏 */
+.five-stone-control-bar {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		height: 100%;
+		border-left: 1px dashed #000000;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+
+	/** 控制按钮 */
+
+	/* button {
+		flex: 1;
+		margin: 0 5px 0 5px;
+	} */
+
+	/** 胜利之后提示五连子的位置 */
+.win_tip {
+		background-color: #ff0000;
+		height: 4px;
+		position: absolute;
+		-webkit-transform-origin: '0% 50%';
+		    -ms-transform-origin: '0% 50%';
+		        transform-origin: '0% 50%'
+}
+.bak_black {
+		background-color: black;
+}
+.bak_white {
+		background-color: white;
+}
+.bak_black {
+		background-color: black;
+}
+.bak_red {
+		background-color: red;
+}
+.bak_blue {
+		background-color: blue;
+}
+.bak_cyan {
+		background-color: Cyan;
+}
+.black {
+		color: #000000;
+}
+.white {
+		color: #FFFFFF;
+}
+.menu_view {
+		position: fixed;
+		top: 0rpx;
+		width: 750rpx;
+		height: 100%;
+		background: rgba(200, 200, 200, .5);
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-flow: column;
+		    -ms-flex-flow: column;
+		        flex-flow: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		z-index: 100;
+}
+.menu_item_view {
+		background: rgba(30, 144, 255, .9);
+		margin: 60rpx 0rpx;
+		border-radius: 20rpx;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-align-content: center;
+		    -ms-flex-line-pack: center;
+		        align-content: center;
+		border: 1rpx solid black;
+		font-size: 35rpx;
+		color: white;
+		font-weight: bold;
+		height: 90rpx;
+		width: 200rpx;
+}
+.uer-name {
+		font-size: 30rpx;
+}
+.board_bak_black {
+
+		border: 5px solid black;
+}
+.board_bak_white {
+
+		border: 5px solid white;
+}
+.minbutton_style {
+		width: 180rpx;
+		height: 80rpx;
+		z-index: 10;
+}
+.minbutton_style:active {
+		width: 180rpx;
+		height: 80rpx;
+		opacity: 0.5;
+		z-index: 10;
+}
+page {
+		background-color: #f3f3f3;
+}
+

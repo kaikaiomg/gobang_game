@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"text_item { width: ",[0,600],"; font-size: ",[0,25],"; padding: ",[0,20]," ",[0,20],"; color: #222222; }\n.",[1],"bac_view { width: 100%; height: ",[0,900],"; padding: ",[0,5]," ",[0,0]," ",[0,10]," ",[0,30],"; background: white; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-flow: column; -ms-flex-flow: column; flex-flow: column; }\n",],undefined,{path:"./pages/jieshao/jieshao.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/jieshao/jieshao.wxml') } }));

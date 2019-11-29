@@ -1,0 +1,54 @@
+
+.bac_image {
+	width: 750rpx;
+	z-index: -10;
+}
+.logo_image {
+	width: 250px;
+	height: 250px;
+}
+.progress_style {
+	z-index: 20;
+	height: 50rpx;
+	width: 400rpx;
+	padding-left: 33rpx;
+}
+.button_style {
+	/* background: -webkit-linear-gradient(right, Aqua, LimeGreen); */
+	/* Safari 5.1 - 6.0 */
+	/* background: -o-linear-gradient(right, Aqua, LimeGreen); */
+	/* Opera 11.1 - 12.0 */
+	/* background: -moz-linear-gradient(right, Aqua, LimeGreen); */
+	/* Firefox 3.6 - 15 */
+	/* background: linear-gradient(right, Aqua, LimeGreen); */
+	/* 标准的语法（必须放在最后） */
+	/*   -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+	/* animation: mymove 5s linear infinite; */
+	border-radius: 12rpx;
+	background-color: #71C671;
+	width: 220rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	font-weight: bold;
+	font-size: 30rpx;
+	text-align: center;
+	background: -webkit-gradient(linear, left top, left bottom, from(#66B5E6), to(#2e88c0));
+	background: -o-linear-gradient(top, #66B5E6, #2e88c0);
+	background: linear-gradient(top, #66B5E6, #2e88c0);
+	background: -ms-linear-gradient(top, #66B5E6, #2e88c0);
+	border: 1px solid #2576A8;
+	-webkit-box-shadow: 0 1px 2px #B8DCF1 inset, 0 -1px 0 #316F96 inset;
+	        box-shadow: 0 1px 2px #B8DCF1 inset, 0 -1px 0 #316F96 inset;
+	color: #fff;
+	/* -webkit-text-fill-color: #E0FFFF; */
+	/* -webkit-text-stroke:1px #000; */
+}
+.button_style:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#8DC9EF), to(#4E9FD1));
+	background: -o-linear-gradient(top, #8DC9EF, #4E9FD1);
+	background: linear-gradient(top, #8DC9EF, #4E9FD1);
+	background: -ms-linear-gradient(top, #8DC9EF, #4E9FD1);
+}
+
+page::after{position:fixed;content:'';left:-1000px;top:-1000px;-webkit-animation:shadow-preload .1s;-webkit-animation-delay:3s;animation:shadow-preload .1s;animation-delay:3s}@-webkit-keyframes shadow-preload{0%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}100%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}}@keyframes shadow-preload{0%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}100%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}}

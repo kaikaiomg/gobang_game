@@ -1,0 +1,19 @@
+
+.text_item {
+	width: 600rpx;
+	font-size: 25rpx;
+	padding: 20rpx 20rpx;
+	color: #222222;
+}
+.bac_view {
+	width: 100%;
+	height: 900rpx;
+	padding: 5rpx 0rpx 10rpx 30rpx;
+	background: white;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column;
+	    -ms-flex-flow: column;
+	        flex-flow: column;
+}
+

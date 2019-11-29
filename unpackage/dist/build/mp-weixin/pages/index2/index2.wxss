@@ -1,0 +1,56 @@
+
+.pic_item {
+	width: 440rpx;
+	height: 130rpx;
+	z-index: 110;
+	position: absolute;
+	right: 150rpx;
+	-webkit-animation-delay: 0.25s;
+	        animation-delay: 0.25s;
+}
+.pic_item :active {
+	width: 440rpx;
+	height: 130rpx;
+	z-index: 110;
+	position: absolute;
+	opacity: 0.8;
+	-webkit-transform: scale(1.05);
+	    -ms-transform: scale(1.05);
+	        transform: scale(1.05);
+}
+.bc {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	/* padding-top: 40upx; */
+	/* position: absolute; */
+	width: 750rpx;
+	z-index: 1;
+	/* top: 0upx; */
+	/* right: 0upx; */
+	/* background-image: url('/static/index4bc.jpg'); */
+}
+@-webkit-keyframes mymove {
+from {
+		/* right: -420upx; */
+		-webkit-transform: translateX(420rpx);
+		        transform: translateX(420rpx)
+}
+to {
+		-webkit-transform: translateX(0rpx);
+		        transform: translateX(0rpx)
+}
+}
+@keyframes mymove {
+from {
+		/* right: -420upx; */
+		-webkit-transform: translateX(420rpx);
+		        transform: translateX(420rpx)
+}
+to {
+		-webkit-transform: translateX(0rpx);
+		        transform: translateX(0rpx)
+}
+}
+

@@ -1,0 +1,303 @@
+@font-face {
+	font-family: texticons;
+	font-weight: normal;
+	font-style: normal;
+	src:  url('//at.alicdn.com/t/font_880030_i7japde43cb.ttf') format('truetype');
+	
+	
+	/* src: url('http://kaikaiomg-kaikaiomg.stor.sinaapp.com/iconfont.ttf') format('truetype'); */
+	/* src: url('../static/iconfont.ttf') format('truetype'); */
+}
+.icontext {
+	font-family: texticons;
+}
+.icon-renwubao:before {
+	content: "\E635";
+}
+.border-style {
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+}
+.border_bottom {
+	border-bottom-style: solid;
+	border-bottom-width: 1rpx;
+	border-bottom-color: #007AFF;
+}
+.row {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.column {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+/*颜色*/
+.red {
+	color: red;
+}
+.Gold {
+	color: Gold;
+}
+.orange {
+	color: orange;
+}
+.purple {
+	color: purple;
+}
+.yellow{
+	color: yellow;
+}
+.green {
+	color: green;
+}
+.grey {
+	color: grey;
+}
+.black {
+	color: black;
+}
+.white {
+	color: white;
+}
+.bac_white {
+	background-color: white;
+}
+.bac_red {
+	background-color: red;
+}
+.bac_blue {
+	background-color: blue;
+}
+.bac_blue_q {
+	background-color: 		LightSkyBlue;
+}
+.bac_purple {
+	background-color: purple;
+}
+.bac_purple_q {
+	background-color: Plum;
+}
+.bac_SeaGreen {
+	background-color: SeaGreen;
+}
+.bac_yellow {
+	background-color: yellow;
+}
+.bac_grey {
+	background-color: grey;
+}
+.bac_orange {
+	background-color: orange;
+}
+.bac_pink {
+	background-color: pink;
+}
+.bac_green {
+	background-color: SpringGreen;
+}
+.bac_brown {
+	background-color: Sienna;
+}
+.bac_danlan {
+	background-color: #00FFFF;
+}
+.bac_white1{
+	background-color: #F8F8F8;
+}
+
+/*表单样式*/
+.white_bac {
+	width: 710rpx;
+	margin: 20rpx 16rpx 20rpx 20rpx;
+	padding-bottom: 20rpx;
+	border-radius: 15rpx;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column nowrap;
+	    -ms-flex-flow: column nowrap;
+	        flex-flow: column nowrap;
+	background-color: white;
+}
+.linestyle {
+	width: 650rpx;
+	min-height: 80rpx;
+	/* line-height: 80upx; */
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row;
+	    -ms-flex-flow: row;
+	        flex-flow: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 30rpx;
+	overflow: hidden;
+	border-bottom: 1rpx solid #EFEFEF;
+	margin: 0rpx 30rpx 0rpx 30rpx;
+}
+.linestyle_left {
+	font-weight: bold;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row;
+	    -ms-flex-flow: row;
+	        flex-flow: row;
+	width: 40%;
+	/* background-color: #0000FF; */
+}
+.linestyle_right {
+	font-weight: bold;
+	color: gray;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	width: 60%;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row;
+	    -ms-flex-flow: row;
+	        flex-flow: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	overflow: hidden;
+	/* background-color: yellow; */
+}
+.linestyle_right_right {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row;
+	    -ms-flex-flow: row;
+	        flex-flow: row;
+	width: 90%;
+	display: inline;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.linestyle_right_left {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row;
+	    -ms-flex-flow: row;
+	        flex-flow: row;
+	width: 90%;
+	display: inline;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+.text_view_icon {
+	padding-left: 20rpx;
+	width: 10%;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.text_view_bigtext {
+	color: #555555;
+	font-size: 22rpx;
+	font-weight: bold;
+	min-height: 150rpx;
+	overflow: hidden;
+	margin: 10rpx 30rpx;
+	/* border-bottom: 10upx solid #EFEFEF; */
+}
+.tijiao_button_style {
+	font-size: 34rpx;
+	color: #F7F7F7;
+	background-color: #007AFF;
+	border-radius: 10rpx;
+	width: 670rpx;
+	margin: 10rpx 40rpx;
+	height: 70rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	line-height: 70rpx;
+}
+.xinjian_button_style {
+	font-size: 34rpx;
+	color: black;
+	background-color: yellow;
+	border-radius: 10rpx;
+	width: 670rpx;
+	margin: 10rpx 40rpx;
+	height: 70rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	line-height: 70rpx;
+}
+.jianhao {
+	color: red;
+	width: 33rpx;
+	font-size: 35rpx;
+}
+.jiahao {
+	margin: 10rpx auto;
+
+	width: 100%;
+	color: black;
+	border-radius: 40rpx;
+	width: 33rpx;
+	height: 33rpx;
+	font-size: 35rpx;
+	line-height: 33rpx;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+/* 登录 */
+page{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+     	min-height: 100%;
+		background-color: #EFEFEF;
+}
+view{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+}
+

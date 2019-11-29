@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index2/index2",
+    "pages/play/play",
+    "pages/jieshao/jieshao",
+    "pages/item_question/item_question",
+    "pages/play_online/play_online"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "五子棋",
+    "navigationBarBackgroundColor": "#f3f3f3",
+    "backgroundColor": "#f3f3f3"
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "gobang_game",
+  "compilerVersion": "2.3.3",
+  "usingComponents": {}
+}
